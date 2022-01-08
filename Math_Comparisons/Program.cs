@@ -14,8 +14,8 @@ namespace Math_Comparisons
 
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate?");
-            int Hrate1 = 15;
-            int Hworked1 = 40;
+            int Hrate1 = int.Parse(Console.ReadLine());
+            int Hworked1 = int.Parse(Console.ReadLine());
             Console.WriteLine(Hrate1);
             Console.WriteLine("Hours worked per week?");
             Console.WriteLine(Hworked1);
@@ -24,8 +24,8 @@ namespace Math_Comparisons
 
             Console.WriteLine("Person 2");
             Console.WriteLine("Hourly Rate?");
-            int Hrate2 = 20;
-            int Hworked2 = 40;
+            int Hrate2 = int.Parse(Console.ReadLine());
+            int Hworked2 = int.Parse(Console.ReadLine());
             Console.WriteLine(Hrate2);
             Console.WriteLine("Hours worked per week?");
             Console.WriteLine(Hworked2);
