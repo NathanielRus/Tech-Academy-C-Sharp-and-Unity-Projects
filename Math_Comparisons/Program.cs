@@ -29,12 +29,11 @@ namespace Math_Comparisons
             Console.ReadLine();
 
             Console.WriteLine("Annual salary of Person 1:");
-            int Annual = 2080;
-            int Asalary1 = Hrate1 * Annual;
+            int Asalary1 = Hrate1 * (Hworked1 * 52);
             Console.WriteLine(Asalary1);
 
             Console.WriteLine("Annual salary of Person 2:");
-            int Asalary2 = Hrate2 * Annual;
+            int Asalary2 = Hrate2 * (Hworked2 * 52);
             Console.WriteLine(Asalary2);
 
             Console.ReadLine();
