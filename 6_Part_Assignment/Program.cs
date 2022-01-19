@@ -87,11 +87,19 @@ namespace _6_Part_Assignment
 
             Console.ReadLine();
             List<string> nameEachs = new List<string>() { "Emma", "Bob", "Joe", "Ben", "Bob", "Joe" };
-            List<string> noDoubles = nameEachs.Distinct().ToList();
+            List<string> nameBackup = new List<string>();
 
-            foreach (string noDouble in noDoubles)
+            foreach (string name in nameEachs)
             {
-                Console.WriteLine(noDouble);
+                if (nameBackup.Contains(name))
+                {
+                    Console.WriteLine(name + " has appeared before");
+                }
+                else
+                {
+                    Console.WriteLine(name + " has NOT appeared before");
+                }
+                nameBackup.Add(name);
                 
             }
 
