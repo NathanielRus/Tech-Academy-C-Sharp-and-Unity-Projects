@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calling_Methods_Assignment
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hi, lets do some math with methods!");
             Console.WriteLine("Please enter a number.");
