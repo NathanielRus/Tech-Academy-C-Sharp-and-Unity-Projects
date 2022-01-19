@@ -7,9 +7,16 @@ namespace ArraysAndLists
     {
         static void Main()
         {
+            //Can change the int to string for string values in list
             List<int> intList = new List<int>();
             intList.Add(4);
             intList.Add(10);
+            intList.Remove(10);
+
+
+            //image into a database table
+            //byte[] byteArray = 
+
 
             Console.WriteLine(intList[0]);
             Console.ReadLine();
