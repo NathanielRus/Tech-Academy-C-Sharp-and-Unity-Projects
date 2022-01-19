@@ -85,14 +85,14 @@ namespace _6_Part_Assignment
             }
 
 
-
+            Console.ReadLine();
             List<string> nameEachs = new List<string>() { "Emma", "Bob", "Joe", "Ben", "Bob", "Joe" };
+            List<string> noDoubles = nameEachs.Distinct().ToList();
 
-            Console.WriteLine("Search for a name");
-
-            foreach (string nameEach in nameEachs)
+            foreach (string noDouble in noDoubles)
             {
-                Console.WriteLine(nameEach);
+                Console.WriteLine(noDouble);
+                
             }
 
 
