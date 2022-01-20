@@ -12,7 +12,7 @@ namespace Method_Class_Assignment
         {
             Math Ops = new Math();
 
-            Ops.Simple();
+            Ops.Simple(first: 10, second: 45);
 
             Console.ReadLine();
         

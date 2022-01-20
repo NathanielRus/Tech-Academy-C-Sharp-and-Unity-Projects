@@ -8,7 +8,7 @@ namespace Method_Class_Assignment
 {
     class Math
     {
-        public void Simple(int first = 10, int second = 45)
+        public void Simple(int first, int second)
         {
             int third = first + 12;
             Console.WriteLine(third);
