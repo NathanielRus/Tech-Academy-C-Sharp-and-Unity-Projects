@@ -18,5 +18,10 @@ namespace Class_Methods_Assignment
             Console.WriteLine(DiffNum * Hardnum);
         }
 
+        public void OutArg(out int number)
+        {
+            number = 44;
+        }
+
     }
 }

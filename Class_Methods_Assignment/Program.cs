@@ -16,10 +16,17 @@ namespace Class_Methods_Assignment
             Console.WriteLine("Hi, please enter a number.");
             Ops.Operations(UserIn1: Convert.ToInt32(Console.ReadLine()));
 
-            Console.ReadLine();
+            
 
             Console.WriteLine("Good now enter a different number.");
             Ops.Operations(DiffNum: Convert.ToInt32(Console.ReadLine()),Hardnum: 10);
+
+            
+
+            Console.WriteLine("Now the computer will give you a number.");
+            int inMethod;
+            Ops.OutArg(out inMethod);
+            Console.WriteLine(inMethod);
 
             Console.ReadLine();
         }
