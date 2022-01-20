@@ -15,7 +15,9 @@ namespace Main_Method_Assignment
 
         public decimal Add(decimal decIn)
         {
-            return decIn + 5.75M;
+            int decInstance = Convert.ToInt32(decIn);
+            int decOut = decInstance + 25;
+            return decOut;
         }
 
         public int Add(string strIn, int userIn)

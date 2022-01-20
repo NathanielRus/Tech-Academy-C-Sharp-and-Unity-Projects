@@ -25,7 +25,7 @@ namespace Main_Method_Assignment
             Console.WriteLine("Good, now type in a decimal!");
             decimal decIn = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine(decIn + " + 5.75 =");
+            Console.WriteLine(decIn + " + 25 =");
             decimal dec = Ops.Add(decIn);
             Console.WriteLine(dec);
 
