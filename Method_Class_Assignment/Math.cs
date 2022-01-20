@@ -11,10 +11,9 @@ namespace Method_Class_Assignment
         public void Simple(int first = 10, int second = 45)
         {
             int third = first + 12;
+            Console.WriteLine(third);
+            Console.WriteLine(second);
         }
-
-        public int third { get; set; }
-        public int second { get; set; }
 
     }    
 }

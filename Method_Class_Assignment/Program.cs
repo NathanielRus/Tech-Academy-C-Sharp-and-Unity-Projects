@@ -12,8 +12,7 @@ namespace Method_Class_Assignment
         {
             Math Ops = new Math();
 
-            Console.WriteLine(Ops.third);
-            Console.WriteLine(Ops.second);
+            Ops.Simple();
 
             Console.ReadLine();
         
