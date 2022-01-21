@@ -10,9 +10,9 @@ namespace Person_Method_Assignment
     {
         static void Main(string[] args)
         {
-            Person Person = new Employee() { FirstName = "Sample", LastName = "Student" };
+            Employee Employee = new Employee() { FirstName = "Sample", LastName = "Student" };
 
-            Person.SayName();
+            Employee.SayName();
             Console.ReadLine();
         }
     }
