@@ -95,12 +95,11 @@ namespace Lambda_Assignment
 
             }
 
-            List<Employee> ListJoe2 = new List<Employee>();
-            List<Employee> ID5 = new List<Employee>();
+            
 
-            List<Employee> ListJoe2 = listEmployees.Where(x => x.FName == "Joe");
+            List<Employee> ListJoe2 = listEmployees.Where(x => x.FName == "Joe").ToList();
 
-            List<Employee> ID5 = listEmployees.Where(Employee.ID => Employee.ID > 105);
+            List<Employee> ID5 = listEmployees.Where(x => x.ID > 105).ToList();
             Console.ReadLine();
         }
     }
